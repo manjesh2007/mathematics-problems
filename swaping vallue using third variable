@@ -1,0 +1,16 @@
+#include <stdio.h>
+int main() {
+    int a,b,c;
+  printf("enter the vallue of a = ");
+  scanf("%d",&a);
+  printf("enter the vallue of b = ");
+  scanf("%d",&b);
+  printf("befor swaping vallue of a = %d\n",a);
+  printf("befor swaping vallue of b = %d\n",b);
+   c = b;
+   b = a;
+   a = c;
+  printf("after swaping vallue of a = %d\n",a);
+    printf("after swaping vallue of b = %d\n",b);
+    return 0;
+}
